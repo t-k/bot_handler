@@ -1,0 +1,16 @@
+lib-cov
+lcov.info
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*~
+
+.DS_Store
+pids
+logs
+results
+build

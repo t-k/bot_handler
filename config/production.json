@@ -1,0 +1,9 @@
+{
+  "host": "http://localhost:8000",
+  "port": 8001,
+  "pid": "/var/run/phantomjs.pid",
+  "viewportSize": {
+    "width": 1900,
+    "height": 1200
+  }
+}
