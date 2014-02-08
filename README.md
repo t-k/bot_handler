@@ -4,7 +4,9 @@ Bot Handler
 Getting started
 ---
 
-Install PhantomJS 1.9+
+Install [PhantomJS](http://phantomjs.org/) 1.9+
+
+http://phantomjs.org/build.html
 
 ```bash
 git clone git@github.com:t-k/bot_handler.git
