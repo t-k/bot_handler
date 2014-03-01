@@ -11,6 +11,8 @@ http://phantomjs.org/build.html
 ```bash
 git clone git@github.com:t-k/bot_handler.git
 
+cd bot_handler
+
 phantomjs app.js
 # Or run in production(load ./config/production.json)
 PHANTOM_ENV=production phantomjs app.js
@@ -27,7 +29,7 @@ for example
         # "facebook" for facebook
         # "Google" for Google+
         if ($http_user_agent ~* bot|spider|facebook|Google)  {
-            proxy_pass http://bot_proxy;
+            proxy_pass http://bot_handler;
             break;
         }
         proxy_pass http://app_server;
