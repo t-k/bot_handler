@@ -13,9 +13,9 @@ git clone git@github.com:t-k/bot_handler.git
 
 cd bot_handler
 
-phantomjs app.js
+phantomjs server.js
 # Or run in production(load ./config/production.json)
-PHANTOM_ENV=production phantomjs app.js
+PHANTOM_ENV=production phantomjs server.js
 ```
 
 Nginx configuration
