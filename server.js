@@ -51,7 +51,9 @@ require("webserver").create().listen(PORT, function(request, response) {
       }
     };
     page.onLoadFinished = function(status) {
-      return callback(page.content, httpStatus);
+      var content = page.content;
+      page.close();
+      return callback(content, httpStatus);
     };
     return page.open(targetURL);
   };
